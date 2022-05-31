@@ -1,9 +1,21 @@
 .section-1 {
-    position: relative;
+    position: fixed;
     width: 100%;
-    height: 100vh; /* vh = viewport height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .section-1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .section-1 {
+        width: auto;
+        height: 100%;
+    }
 }
