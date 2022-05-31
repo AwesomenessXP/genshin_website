@@ -11,7 +11,7 @@
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    text-align: center;;
+    text-align: center;
 }
 
 .section-2 {
@@ -41,8 +41,27 @@
 }
 */
 
-.emblem {
-    position: relative;
+.emblem-container {
+    position: absolute;
     height: 100%;
+    width: 99%;
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.emblem-img:hover {
+    filter: brightness(1.2);
+    color:aqua;
+}
+
+.section-3 {
+    position: absolute;
     width: 100%;
+    height: 100vh;
+    top: 1000px;
+    left: 0;
+    filter: blur(0);
+    overflow: hidden;
 }
