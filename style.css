@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     filter: blur(0);
+    z-index: -99;
 }
 
 .music-section {
@@ -53,7 +54,6 @@
 
 .emblem-img:hover {
     filter: brightness(1.2);
-    color:aqua;
 }
 
 .section-3 {
@@ -62,6 +62,27 @@
     height: 100vh;
     top: 1000px;
     left: 0;
-    filter: blur(0);
     overflow: hidden;
+    z-index: 1;
+}
+
+.section-4 {
+    position: relative;
+    font-style: italic;
+    height: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
+    top: 1200px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 10px black;
+}
+
+.inspirational-quote {
+    position: absolute;
+    height: 120px;
+    color: aqua;
+    z-index: 3;
+    border: 1px solid black;
 }
