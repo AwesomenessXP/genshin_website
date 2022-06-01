@@ -53,6 +53,7 @@
     overflow: hidden;
     padding-bottom: 0;
     resize: both;
+    z-index: -50;
 }
 
 .raiden-img {
