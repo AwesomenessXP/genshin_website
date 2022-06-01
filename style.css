@@ -61,7 +61,7 @@
     height: 80%;
     top: 80px;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
     resize: both;
 }
 
@@ -87,7 +87,7 @@
     padding-left: 500px;
     padding-right: 500px;
     top: 1200px;
-    z-index: 2;
+    z-index: 3;
     color: white;
     text-align: center;
     resize: both;
