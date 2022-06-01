@@ -32,7 +32,7 @@
     width: 300px;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 100px;
+    margin-right: 95px;
 }
 
 .music-section .two {
@@ -84,6 +84,11 @@
 
 .music-section .four:hover {
     background-color: rgba(255, 255, 255, 0.336);
+}
+
+.music-section .five:hover {
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
 }
 
 .section-2 {
