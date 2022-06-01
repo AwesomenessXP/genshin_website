@@ -271,3 +271,10 @@ h2 {
         top: 25vh;
     }
 }
+
+@media (max-width: 400px) {
+    .emblem-container {
+        height: 30%;
+        top: 15vh;
+    }
+}
