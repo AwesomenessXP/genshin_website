@@ -123,11 +123,12 @@
     height: 100%;
     width: 99%;
     text-align: center;
-    margin-top: 70px;
+    top: 165px;
     overflow: hidden;
     padding-bottom: 0;
     resize: both;
     z-index: -50;
+    filter: drop-shadow(2px 2px 4px rgb(255, 255, 255));
 }
 
 .raiden-img {
@@ -165,14 +166,11 @@
     z-index: 3;
     color: white;
     text-align: center;
-    resize: both;
 }
 
 h2 {
-    background: black;
-    opacity: 80%;
-    filter: brightness(1.5);
+    background: rgba(0, 0, 0, 0.726);
+    filter: brightness(1.2);
     border-radius: 12.5px;
     padding: 10px;
-    filter: contrast(0.98);
 }
