@@ -120,16 +120,17 @@
 */
 
 .emblem-container {
+    display: flex;
     position: absolute;
     height: 100%;
     width: 99%;
-    text-align: center;
-    top: 165px;
+    top: 1.5em;
     overflow: hidden;
     padding-bottom: 0;
     resize: both;
     z-index: -50;
     filter: drop-shadow(2px 2px 4px rgb(255, 255, 255));
+    justify-content: center;
 }
 
 .raiden-img {
@@ -213,6 +214,11 @@ h2 {
     .raiden-img {
         top: 30vh;
     }
+
+    .emblem-container {
+        height: 85%;
+        top: 3em;
+    }
 }
 
 @media (max-width: 1919px) {
@@ -226,22 +232,42 @@ h2 {
         margin-right: 1px;
         margin-left: 1px;
     }
+
+    h2 {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 1100px) {
     .raiden-img {
         top: 50vh;
     }
+
+    .emblem-container {
+        height: 75%;
+        top: 10em;
+    }
 }
 
 @media (max-width: 940px) {
     .raiden-img {
-        top: 70vh;
+        height: 100%;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 1.27em;
     }
 }
 
 @media (max-width: 860px) {
+    .emblem-container {
+        height: 70%;
+    }
 }
-@media (max-width: 500px) {
-
+@media (max-width: 650px) {
+    .emblem-container {
+        height: 50%;
+        top: 25vh;
+    }
 }
