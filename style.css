@@ -121,7 +121,7 @@
 
 .emblem-container {
     display: flex;
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 99%;
     top: 1.5em;
@@ -138,7 +138,7 @@
     position: relative;
     width: 80%;
     height: 80%;
-    margin-top: 20vh;
+    margin-top: -80vh;
     overflow: hidden;
     z-index: 2;
 }
@@ -162,7 +162,7 @@
     position: relative;
     font-style: italic;
     height: 180px;
-    top: 130vh;
+    top: 30vh;
     z-index: 3;
     color: white;
     text-align: center;
@@ -182,6 +182,7 @@ h2 {
 
 @media (max-width: 1500px) {
     h2 {
+        top: 0vh;
         height: 300px;
         width: 300px;
         overflow: hidden;
@@ -197,27 +198,8 @@ h2 {
         z-index: -99;
     }
 
-    .section-4 {
-        position: relative;
-        font-style: italic;
-        height: 50px;
-        top: 130vh;
-        z-index: 3;
-        color: white;
-        text-align: center;
-        display: flex; 
-        justify-content: center;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
     .raiden-img {
         top: 30vh;
-    }
-
-    .emblem-container {
-        height: 85%;
-        top: 3em;
     }
 }
 
@@ -243,10 +225,6 @@ h2 {
         top: 50vh;
     }
 
-    .emblem-container {
-        height: 75%;
-        top: 10em;
-    }
 }
 
 @media (max-width: 940px) {
@@ -261,20 +239,9 @@ h2 {
 }
 
 @media (max-width: 860px) {
-    .emblem-container {
-        height: 70%;
-    }
 }
 @media (max-width: 650px) {
-    .emblem-container {
-        height: 50%;
-        top: 25vh;
-    }
 }
 
 @media (max-width: 400px) {
-    .emblem-container {
-        height: 30%;
-        top: 15vh;
-    }
 }
