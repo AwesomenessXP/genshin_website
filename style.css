@@ -201,6 +201,10 @@ h2 {
     .raiden-img {
         top: 30vh;
     }
+
+    .emblem-container {
+        height: 50em;
+    }
 }
 
 @media (max-width: 1919px) {
@@ -225,6 +229,9 @@ h2 {
         top: 50vh;
     }
 
+    h2 {
+        top: 1000px;
+    }
 }
 
 @media (max-width: 940px) {
@@ -235,13 +242,36 @@ h2 {
 
     h2 {
         font-size: 1.27em;
+        margin-top: 30vh;
+    }
+
+    .emblem-container {
+        height: 40em;
     }
 }
 
 @media (max-width: 860px) {
+    .emblem-container {
+        height: 40em;
+        top: 10em;
+    }
+
+    .raiden-img {
+        top: 90vh;
+    }
+
+    h2 {
+        margin-top: 50vh;
+    }
 }
 @media (max-width: 650px) {
+    .emblem-container {
+        height: 30em;
+    }
 }
 
 @media (max-width: 400px) {
+    .emblem-container {
+        height: 20em;
+    }
 }
