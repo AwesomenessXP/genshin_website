@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Grand Narukami Shrine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="raiden.css">
+    <link rel="stylesheet" href="kokomi.css">
+    <link rel="stylesheet" href="showcase-card.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -58,13 +61,13 @@
           </div>
       </div>
 
-      <div id="section-3">
+      <div id="raiden-slide" class="slide">
         <video autoplay loop muted class="second-slide">
           <source src="resources/raiden-video.mp4" type="video/mp4">
         </video>
 
-        <div class="raiden-desc">
-          <div class="raiden-title">
+        <div id="raiden-desc" class="slide-description">
+          <div id="raiden-title" class="showcase-list">
             <h1>Raiden Shogun</h1>
           </div>
 
@@ -75,7 +78,7 @@
           </ul> 
           
           <div class="raiden-showcase">
-            <img src="resources/raiden-showcase.gif" alt="">
+            <img class="raiden-demo" src="resources/raiden-showcase.gif" alt="">
           </div>
 
           <div class="raiden-title">
@@ -104,23 +107,47 @@
 
       </div>
 
-      <div id="section-4">
+      <div id="kokomi-slide" class="slide">
         <video autoplay loop muted class="second-slide">
           <source src="resources/kokomi-video.mp4" type="video/mp4">
         </video>
 
-        <div class="kokomi-desc">
-          <div id="kokomi-title">
+        <div id="kokomi-desc" class="slide-description">
+          <div id="kokomi-title" class="showcase-list">
             <h1>Sangonomiya Kokomi</h1>
           </div>
 
           <ul class="kokomi-list">
-            <li>Leader of Watatsumi Island</li>
-            <li>Fish girl lol</li>
+            <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> The Shape of Water</li>
+            <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Kurage's Oath</li>
+            <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Nereid's Ascension</li>
           </ul>
 
           <div class="kokomi-showcase">
             <img class = "kokomi-demo" src="resources/kokomi-showcase.gif" alt="">
+          </div>
+
+          <div class="kokomi-title">
+            <h1>Build</h1>
+            <p>4-piece Ocean-Hued Clam</p>
+  
+            <div class="artifact-set">
+              <div class="flower">
+                <img id="ocean-flower" src="resources/ocean-flower.png" alt="">
+              </div>
+              <div class="feather">
+                <img id="ocean-feather" src="resources/ocean-feather.png" alt="">
+              </div>
+              <div class="sands">
+                <img id="ocean-sands" src="resources/ocean-sands.png" alt="">
+              </div>
+              <div class="goblet">
+                <img id="ocean-goblet" src="resources/ocean-goblet.png" alt="">
+              </div>
+              <div class="circlet">
+                <img id="ocean-circlet" src="resources/ocean-circlet.png" alt="">
+              </div>
+            </div>
           </div>
         </div>
 

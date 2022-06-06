@@ -1,0 +1,35 @@
+.artifact-set {
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artifact-set img {
+    flex: 1 1 0%;
+    position: relative;
+    height: 4em;
+    width: auto;
+    padding-top: 0;
+}
+
+.showcase-title {
+    position: relative;
+    font-weight: bold;
+    color: white;
+    width: auto;
+    z-index: 5;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.showcase-list {
+    margin-top: 1px;
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+}

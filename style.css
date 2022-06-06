@@ -6,6 +6,8 @@ body {
     padding-bottom: 0;
 }
 
+/* ------------------- THIS IS THE HEADER AND NAV BAR --------------------- */
+
 #section-1 {
     display: flex;
     position: fixed;
@@ -111,16 +113,11 @@ nav .five:hover {
     z-index: -1;
 }
 
-.raiden-img {
-    position: relative;
-    height: 80%;
-    width: 80%;
-    top: -80em;
-}
-
 .emblem-img:hover {
     filter: brightness(1.2);
 }
+
+/*---------------------------- THIS IS THE DESCRIPTION OF INAZUMA ------------------------------ */
 
 #section-2 {
     position: relative;
@@ -149,19 +146,22 @@ nav .five:hover {
     padding: 15px;
 }
 
-#section-3 {
+/*----------------------------- THESE ARE THE CHARACTER SHOWCASES ---------------------------- */
+
+/* CHARACTER SLIDE TEMPLATE */
+.slide {
     position: relative;
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.raiden-desc {
+.slide-description {
     position: relative;
     height: 40em;
     width: 30em;
     margin-top: -65em;
-    background-color: rgba(119, 0, 255, 0.336);
+    background-color: rgba(0, 0, 0, 0.281);
     z-index: 3;
     margin-left: 8%;
     padding-left: 20px;
@@ -173,90 +173,7 @@ nav .five:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.726);
 }
 
-.raiden-title {
-    position: relative;
-    font-weight: bold;
-    color: white;
-    width: 30em;
-    z-index: 5;
-    justify-content: center;
-    margin-bottom: 0;
-}
-
-.raiden-list {
-    margin-top: 1px;
-    color: white;
-}
-
-#section-4 {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.kokomi-desc {
-    position: relative;
-    height: 40em;
-    width: 30em;
-    margin-top: -65em;
-    background-color: rgba(0, 204, 255, 0.281);
-    z-index: 3;
-    margin-left: 8%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    border-radius: 15px;
-    margin-bottom: 4em;
-    font-family: 'Roboto', sans-serif;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.726);
-}
-
-#kokomi-title {
-    position: relative;
-    font-weight: bold;
-    color: white;
-    width: auto;
-    z-index: 5;
-    justify-content: center;
-    margin-bottom: 0;
-}
-
-.kokomi-list {
-    margin-top: 1px;
-    color: white;
-}
-
-.raiden-chibi {
-    height: 10em;
-    width: 10em;
-}
-
-.kokomi-demo {
-    height: 16.3em;
-    width: auto;
-}
-
-.artifact-set {
-    position: relative;
-    display: flex;
-    height: 70px;
-    width: auto;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.artifact-set img {
-    flex: 1 1 0%;
-    position: relative;
-    height: 4em;
-    width: auto;
-    padding-top: 0;
-}
-
-ul {
-    list-style-type: square;
-}
+/* WEBSITE RESPONSIVENESS */
 
 @media (max-width: 1500px) {
 
