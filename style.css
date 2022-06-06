@@ -21,6 +21,7 @@ body {
 }
 
 nav {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row;
     width: auto;

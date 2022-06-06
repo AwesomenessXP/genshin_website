@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="raiden.css">
     <link rel="stylesheet" href="kokomi.css">
+    <link rel="stylesheet" href="yaemiko.css">
     <link rel="stylesheet" href="showcase-card.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +29,13 @@
           <audio controls><source src="resources/Inazuma.mp3" type="audio/mp3"></audio>  
         </div>
         <div class="two">
-          <h3>About</h3>
+          <h3>Raiden Shogun</h3>
         </div>
         <div class="three">
-          <h3>FAQ</h3>
+          <h3>Kokomi</h3>
         </div>
         <div class="four">
-          <h3>Contact</h3>
+          <h3>Yae Miko</h3>
         </div>
         <div class="five">
           <img class="menu-icon" src="resources/menu_icon_white.png" alt="" height="50" width="50">
@@ -57,7 +58,7 @@
           </div>
 
           <div class="raiden-shogun">
-            <img class="raiden-img" src="resources/shogun_full_body.png" alt="">
+            <img id="raiden-img" src="resources/shogun_full_body.png" alt="">
           </div>
       </div>
 
@@ -71,17 +72,17 @@
             <h1>Raiden Shogun</h1>
           </div>
 
-          <ul class="raiden-list">
+          <ul id="raiden-list" class="showcase-list">
             <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> Origin</li>
             <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Baleful Omen</li>
             <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Musou Shinsetsu</li>
           </ul> 
           
-          <div class="raiden-showcase">
-            <img class="raiden-demo" src="resources/raiden-showcase.gif" alt="">
+          <div id="raiden-showcase">
+            <img id="raiden-demo" src="resources/raiden-showcase.gif" alt="">
           </div>
 
-          <div class="raiden-title">
+          <div id="raiden-title" class="showcase-title">
             <h1>Build</h1>
             <p>4-piece Emblem of Severed Fate</p>
 
@@ -113,21 +114,21 @@
         </video>
 
         <div id="kokomi-desc" class="slide-description">
-          <div id="kokomi-title" class="showcase-list">
+          <div id="kokomi-title" class="showcase-title">
             <h1>Sangonomiya Kokomi</h1>
           </div>
 
-          <ul class="kokomi-list">
+          <ul id="kokomi-list" class="showcase-list">
             <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> The Shape of Water</li>
             <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Kurage's Oath</li>
             <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Nereid's Ascension</li>
           </ul>
 
-          <div class="kokomi-showcase">
-            <img class = "kokomi-demo" src="resources/kokomi-showcase.gif" alt="">
+          <div id="kokomi-showcase">
+            <img id="kokomi-demo" src="resources/kokomi-showcase.gif" alt="">
           </div>
 
-          <div class="kokomi-title">
+          <div id="kokomi-title-2" class="showcase-title">
             <h1>Build</h1>
             <p>4-piece Ocean-Hued Clam</p>
   
@@ -150,7 +151,51 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div id="yae-slide" class="slide">
+        <video autoplay loop muted class="second-slide">
+          <source src="resources/yae-showcase.mp4" type="video/mp4">
+        </video>
+
+        <div id="yae-desc" class="slide-description">
+          <div id="yae-title" class="showcase-list">
+            <h1>Yae Miko</h1>
+          </div>
+
+          <ul id="yae-list" class="showcase-list">
+            <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> Spiritfox Sin-Eater</li>
+            <li><span style="font-weight: bold; letter-spacing: 1px">Yakan Evocation:</span> Sesshou Sakura</li>
+            <li><span style="font-weight: bold; letter-spacing: 1px">Great Secret Art:</span> Tenko Kenshin</li>
+          </ul> 
+          
+          <div id="yae-showcase">
+            <img id="yae-demo" src="resources/yae-demo.gif" alt="">
+          </div>
+
+          <div id="yae-title" class="showcase-title">
+            <h1>Build</h1>
+            <p>4-piece Thundering Fury</p>
+
+            <div class="artifact-set">
+              <div class="flower">
+                <img id="fury-flower" src="resources/fury-flower.png" alt="">
+              </div>
+              <div class="feather">
+                <img id="fury-feather" src="resources/fury-feather.png" alt="">
+              </div>
+              <div class="sands">
+                <img id="fury-sands" src="resources/fury-sands.png" alt="">
+              </div>
+              <div class="goblet">
+                <img id="fury-goblet" src="resources/fury-goblet.png" alt="">
+              </div>
+              <div class="circlet">
+                <img id="fury-circlet" src="resources/fury-circlet.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
   </body>

@@ -1,8 +1,8 @@
 #kokomi-desc {
-    background-color: rgba(0, 204, 255, 0.281);
+    background-color: rgba(0, 204, 255, 0.548);
 }
 
-.kokomi-demo {
+#kokomi-demo {
     height: 16.3em;
     width: auto;
     border-radius: 8px;
