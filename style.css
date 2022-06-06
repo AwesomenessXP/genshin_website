@@ -232,6 +232,11 @@ body {
     width: 10em;
 }
 
+.kokomi-demo {
+    height: 16em;
+    width: auto;
+}
+
 
 @media (max-width: 1500px) {
 
