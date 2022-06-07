@@ -180,8 +180,10 @@ nav .five:hover {
     display: flex;
     position: relative;
     height: 75em;
+    width: auto;
     background-color: rgba(0, 0, 0, 0.514);
     justify-content: space-between;
+    flex-direction: row;
 }
 
 #inazuma-gallery img {

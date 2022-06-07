@@ -56,7 +56,8 @@
     height: 10em;
     width: auto;
     margin: 0 0 0 0;
-    justify-content: right;
+    justify-content: center;
+    flex: 1 1 0;
 }
 
 #inazuma-gallery-title {
@@ -73,7 +74,7 @@
     position: relative;
     flex-direction: column;
     height: 64.5em;
-    width: 30em;
+    width: auto;
     justify-content: space-between;
     top: 0;
 }
@@ -84,6 +85,7 @@
     flex-direction: column;
     display: flex;
     height: 72em;
+    width: auto;
     justify-content: space-around;
 }
 
@@ -100,7 +102,7 @@
 }
 
 #tenshukaku {
-    align-self: flex-end;
+    align-self: ce;
     margin-bottom: 10px;
     right: 0;
 }
