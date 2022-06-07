@@ -10,193 +10,259 @@
     <link rel="stylesheet" href="kokomi.css">
     <link rel="stylesheet" href="yaemiko.css">
     <link rel="stylesheet" href="showcase-card.css">
+    <link rel="stylesheet" href="photo-gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
 	<!--<script src="index.js"></script>--> 
-      <div id="section-1">
-          <div class="video-container">
-              <video autoplay loop muted class="back-video">
-                  <source src="resources/sakuratree.mp4" type="video/mp4">
-              </video>
-          </div>  
+
+  <!--NARUKAMI SHRINE FIXED BACKGROUND-->
+    <div id="section-1">
+        <div class="video-container">
+            <video autoplay loop muted class="back-video">
+                <source src="resources/sakuratree.mp4" type="video/mp4">
+            </video>
+        </div>  
+    </div>
+
+    <!--NAV BAR-->
+    <nav>
+      <!--AUDIO PLAYER-->
+      <div class="one">
+        <audio controls><source src="resources/Inazuma.mp3" type="audio/mp3"></audio>  
       </div>
 
-      <nav>
-        <div class="one">
-          <audio controls><source src="resources/Inazuma.mp3" type="audio/mp3"></audio>  
-        </div>
-        <div class="two">
-          <h3>Raiden Shogun</h3>
-        </div>
-        <div class="three">
-          <h3>Kokomi</h3>
-        </div>
-        <div class="four">
-          <h3>Yae Miko</h3>
-        </div>
-        <div class="five">
-          <img class="menu-icon" src="resources/menu_icon_white.png" alt="" height="50" width="50">
-        </div>
-      </nav> 
-
-      <div id="emblem-container">
-          <img class="emblem-img" src="resources/Emblem_Inazuma.png" alt="inazuma-logo">
+      <!--NAVIGATION BUTTONS-->
+      <div class="two">
+        <h3>Raiden Shogun</h3>
       </div>
-
-      <div id="section-2">
-          <video autoplay loop muted>
-              <source src="resources/inazuma_castle.mp4" type="video/mp4">
-          </video>
-
-          <div class="inazuma-description">
-            <h2 class="inpirational-quote">" An Isolated Archipelago <span style="color: rgb(128, 187, 255)">Far East of Teyvat</span>
-              Overcome endless thunderstorms and set foot on the islands of <span style="color: rgb(241, 45, 11)">red maple</span> and <span style="color: rgb(255, 111, 135)"> cherry blossoms.</span> On winding shores and towering cliffs, and in forests and mountains full of secrets, witness the Eternity pursued by Her Excellency, the <span style="color: rgb(121, 0, 207)">Almighty Narukami Ogosho.</span> "
-            </h2>
-          </div>
-
-          <div class="raiden-shogun">
-            <img id="raiden-img" src="resources/shogun_full_body.png" alt="">
-          </div>
+      <div class="three">
+        <h3>Kokomi</h3>
       </div>
+      <div class="four">
+        <h3>Yae Miko</h3>
+      </div>
+      <div class="five">
+        <img class="menu-icon" src="resources/menu_icon_white.png" alt="" height="50" width="50">
+      </div>
+    </nav> 
 
-      <div id="raiden-slide" class="slide">
-        <video autoplay loop muted class="second-slide">
-          <source src="resources/raiden-video.mp4" type="video/mp4">
+    <!--INAZUMA EMBLEM-->
+    <div id="emblem-container">
+        <img class="emblem-img" src="resources/Emblem_Inazuma.png" alt="inazuma-logo">
+    </div>
+
+    <!--INAZUMA INTRO-->
+    <div id="section-2">
+        <video autoplay loop muted>
+            <source src="resources/inazuma_castle.mp4" type="video/mp4">
         </video>
 
-        <div id="raiden-desc" class="slide-description">
-          <div id="raiden-title" class="showcase-list">
-            <h1>Raiden Shogun</h1>
-          </div>
+        <div class="inazuma-description">
+          <h2 class="inpirational-quote">" An Isolated Archipelago <span style="color: rgb(128, 187, 255)">Far East of Teyvat</span>
+            Overcome endless thunderstorms and set foot on the islands of <span style="color: rgb(241, 45, 11)">red maple</span> and <span style="color: rgb(255, 111, 135)"> cherry blossoms.</span> On winding shores and towering cliffs, and in forests and mountains full of secrets, witness the Eternity pursued by Her Excellency, the <span style="color: rgb(121, 0, 207)">Almighty Narukami Ogosho.</span> "
+          </h2>
+        </div>
 
-          <ul id="raiden-list" class="showcase-list">
-            <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> Origin</li>
-            <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Baleful Omen</li>
-            <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Musou Shinsetsu</li>
-          </ul> 
-          
-          <div id="raiden-showcase">
-            <img id="raiden-demo" src="resources/raiden-showcase.gif" alt="">
-          </div>
+        <div class="raiden-shogun">
+          <img id="raiden-img" src="resources/shogun_full_body.png" alt="">
+        </div>
+    </div>
 
-          <div id="raiden-title" class="showcase-title">
-            <h1>Build</h1>
-            <p>4-piece Emblem of Severed Fate</p>
+    <!-------------------------------- CHARACTER SHOWCASE SLIDES ------------------------------------>
 
-            <div class="artifact-set">
-              <div class="flower">
-                <img id="emblem-flower" src="resources/emblem-flower.png" alt="">
-              </div>
-              <div class="feather">
-                <img id="emblem-feather" src="resources/emblem-feather.png" alt="">
-              </div>
-              <div class="sands">
-                <img id="emblem-sands" src="resources/emblem-sands.png" alt="">
-              </div>
-              <div class="goblet">
-                <img id="emblem-goblet" src="resources/emblem-goblet.png" alt="">
-              </div>
-              <div class="circlet">
-                <img id="emblem-circlet" src="resources/emblem-circlet.png" alt="">
-              </div>
+    <!--RAIDEN SHOWCASE-->
+    <div id="raiden-slide" class="slide">
+      <!--BACKGROUND VISUAL-->
+      <video autoplay loop muted class="second-slide">
+        <source src="resources/raiden-video.mp4" type="video/mp4">
+      </video>
+
+      <!--SHOWCASE CARD AND DESCRIPTION-->
+      <div id="raiden-desc" class="slide-description">
+        <div id="raiden-title" class="showcase-list">
+          <h1>Raiden Shogun</h1>
+        </div>
+
+        <!--TALENTS-->
+        <ul id="raiden-list" class="showcase-list">
+          <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> Origin</li>
+          <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Baleful Omen</li>
+          <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Musou Shinsetsu</li>
+        </ul> 
+        
+        <!--CHARACTER DEMO-->
+        <div id="raiden-showcase">
+          <img id="raiden-demo" src="resources/raiden-showcase.gif" alt="">
+        </div>
+
+        <div id="raiden-title" class="showcase-title">
+          <h1>Build</h1>
+          <p>4-piece Emblem of Severed Fate</p>
+
+          <!--ARTIFACT TABLE-->
+          <div class="artifact-set">
+            <div class="flower">
+              <img id="emblem-flower" src="resources/emblem-flower.png" alt="">
             </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="kokomi-slide" class="slide">
-        <video autoplay loop muted class="second-slide">
-          <source src="resources/kokomi-video.mp4" type="video/mp4">
-        </video>
-
-        <div id="kokomi-desc" class="slide-description">
-          <div id="kokomi-title" class="showcase-title">
-            <h1>Sangonomiya Kokomi</h1>
-          </div>
-
-          <ul id="kokomi-list" class="showcase-list">
-            <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> The Shape of Water</li>
-            <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Kurage's Oath</li>
-            <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Nereid's Ascension</li>
-          </ul>
-
-          <div id="kokomi-showcase">
-            <img id="kokomi-demo" src="resources/kokomi-showcase.gif" alt="">
-          </div>
-
-          <div id="kokomi-title-2" class="showcase-title">
-            <h1>Build</h1>
-            <p>4-piece Ocean-Hued Clam</p>
-  
-            <div class="artifact-set">
-              <div class="flower">
-                <img id="ocean-flower" src="resources/ocean-flower.png" alt="">
-              </div>
-              <div class="feather">
-                <img id="ocean-feather" src="resources/ocean-feather.png" alt="">
-              </div>
-              <div class="sands">
-                <img id="ocean-sands" src="resources/ocean-sands.png" alt="">
-              </div>
-              <div class="goblet">
-                <img id="ocean-goblet" src="resources/ocean-goblet.png" alt="">
-              </div>
-              <div class="circlet">
-                <img id="ocean-circlet" src="resources/ocean-circlet.png" alt="">
-              </div>
+            <div class="feather">
+              <img id="emblem-feather" src="resources/emblem-feather.png" alt="">
+            </div>
+            <div class="sands">
+              <img id="emblem-sands" src="resources/emblem-sands.png" alt="">
+            </div>
+            <div class="goblet">
+              <img id="emblem-goblet" src="resources/emblem-goblet.png" alt="">
+            </div>
+            <div class="circlet">
+              <img id="emblem-circlet" src="resources/emblem-circlet.png" alt="">
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div id="yae-slide" class="slide">
-        <video autoplay loop muted class="second-slide">
-          <source src="resources/yae-showcase.mp4" type="video/mp4">
-        </video>
+    <!--KOKOMI SHOWCASE-->
+    <div id="kokomi-slide" class="slide">
+      <!--BACKGROUND VISUAL-->
+      <video autoplay loop muted class="second-slide">
+        <source src="resources/kokomi-video.mp4" type="video/mp4">
+      </video>
 
-        <div id="yae-desc" class="slide-description">
-          <div id="yae-title" class="showcase-list">
-            <h1>Yae Miko</h1>
-          </div>
+      <!--SHOWCASE CARD AND DESCRIPTION-->
+      <div id="kokomi-desc" class="slide-description">
+        <div id="kokomi-title" class="showcase-title">
+          <h1>Sangonomiya Kokomi</h1>
+        </div>
 
-          <ul id="yae-list" class="showcase-list">
-            <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> Spiritfox Sin-Eater</li>
-            <li><span style="font-weight: bold; letter-spacing: 1px">Yakan Evocation:</span> Sesshou Sakura</li>
-            <li><span style="font-weight: bold; letter-spacing: 1px">Great Secret Art:</span> Tenko Kenshin</li>
-          </ul> 
-          
-          <div id="yae-showcase">
-            <img id="yae-demo" src="resources/yae-demo.gif" alt="">
-          </div>
+        <!--TALENTS-->
+        <ul id="kokomi-list" class="showcase-list">
+          <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> The Shape of Water</li>
+          <li><span style="font-weight: bold; letter-spacing: 1px">Transcendence:</span> Kurage's Oath</li>
+          <li><span style="font-weight: bold; letter-spacing: 1px">Secret Art:</span> Nereid's Ascension</li>
+        </ul>
 
-          <div id="yae-title" class="showcase-title">
-            <h1>Build</h1>
-            <p>4-piece Thundering Fury</p>
+        <!--CHARACTER DEMO-->
+        <div id="kokomi-showcase">
+          <img id="kokomi-demo" src="resources/kokomi-showcase.gif" alt="">
+        </div>
 
-            <div class="artifact-set">
-              <div class="flower">
-                <img id="fury-flower" src="resources/fury-flower.png" alt="">
-              </div>
-              <div class="feather">
-                <img id="fury-feather" src="resources/fury-feather.png" alt="">
-              </div>
-              <div class="sands">
-                <img id="fury-sands" src="resources/fury-sands.png" alt="">
-              </div>
-              <div class="goblet">
-                <img id="fury-goblet" src="resources/fury-goblet.png" alt="">
-              </div>
-              <div class="circlet">
-                <img id="fury-circlet" src="resources/fury-circlet.png" alt="">
-              </div>
+        <div id="kokomi-title-2" class="showcase-title">
+          <h1>Build</h1>
+          <p>4-piece Ocean-Hued Clam</p>
+
+          <!--ARTIFACT TABLE-->
+          <div class="artifact-set">
+            <div class="flower">
+              <img id="ocean-flower" src="resources/ocean-flower.png" alt="">
+            </div>
+            <div class="feather">
+              <img id="ocean-feather" src="resources/ocean-feather.png" alt="">
+            </div>
+            <div class="sands">
+              <img id="ocean-sands" src="resources/ocean-sands.png" alt="">
+            </div>
+            <div class="goblet">
+              <img id="ocean-goblet" src="resources/ocean-goblet.png" alt="">
+            </div>
+            <div class="circlet">
+              <img id="ocean-circlet" src="resources/ocean-circlet.png" alt="">
             </div>
           </div>
         </div>
       </div>
+    </div>
 
+    <!--YAE SHOWCASE-->
+    <div id="yae-slide" class="slide">      
+      <!--BACKGROUND VISUAL-->
+      <video autoplay loop muted class="second-slide">
+        <source src="resources/yae-showcase.mp4" type="video/mp4">
+      </video>
+
+      <!--SHOWCASE CARD AND DESCRIPTION-->
+      <div id="yae-desc" class="slide-description">
+        <div id="yae-title" class="showcase-list">
+          <h1>Yae Miko</h1>
+        </div>
+
+        <!--TALENTS-->
+        <ul id="yae-list" class="showcase-list">
+          <li><span style="font-weight: bold; letter-spacing: 1px">Normal attack:</span> Spiritfox Sin-Eater</li>
+          <li><span style="font-weight: bold; letter-spacing: 1px">Yakan Evocation:</span> Sesshou Sakura</li>
+          <li><span style="font-weight: bold; letter-spacing: 1px">Great Secret Art:</span> Tenko Kenshin</li>
+        </ul> 
+        
+        <!--CHARACTER DEMO-->
+        <div id="yae-showcase">
+          <img id="yae-demo" src="resources/yae-demo.gif" alt="">
+        </div>
+
+        <div id="yae-title" class="showcase-title">
+          <h1>Build</h1>
+          <p>4-piece Thundering Fury</p>
+
+          <!--ARTIFACT TABLE-->
+          <div class="artifact-set">
+            <div class="flower">
+              <img id="fury-flower" src="resources/fury-flower.png" alt="">
+            </div>
+            <div class="feather">
+              <img id="fury-feather" src="resources/fury-feather.png" alt="">
+            </div>
+            <div class="sands">
+              <img id="fury-sands" src="resources/fury-sands.png" alt="">
+            </div>
+            <div class="goblet">
+              <img id="fury-goblet" src="resources/fury-goblet.png" alt="">
+            </div>
+            <div class="circlet">
+              <img id="fury-circlet" src="resources/fury-circlet.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--INAZUMA PHOTOS-->
+    <div id="inazuma-gallery">
+      <div id="inazuma-gallery-title">
+        <h1><span style="font-family: 'Roboto', sans-serif;">Photos of Inazuma</span></h1>
+      </div>
+
+      <div class="column-0">
+        <div class="gallery-row" id="castle">
+          <img class="photo-cell" src="resources/shogun-castle.webp" alt="">
+        </div>
+
+        <div class="gallery-row-2">
+          <img class="photo-cell-long" id="tenshukaku" src="resources/tenshukaku.PNG" alt="">
+        </div>
+      </div>
+
+      <div class="column-1">
+        <div class="gallery-row-3">
+          <img class="photo-cell" id="island" src="resources/ritou.jpg" alt="">
+        </div>
+
+        <div class="gallery-row-4">
+          <img class="photo-cell" id="serai-island" src="resources/serai-island.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="gallery-row" id="column-2">
+        <div id="forest">
+          <img class="column-2-photo-cell" src="resources/inazuma-forest.jpg" alt="">
+        </div>
+        <div id="serpent">
+          <img class="column-2-photo-cell" src="resources/inazuma-serpent.jpg" alt="">
+        </div>
+        <div id="ghost">
+          <img class="column-2-photo-cell" src="resources/ghost-island.jpg" alt="">
+        </div>
+      </div>
+    </div>
   </body>
 </html>

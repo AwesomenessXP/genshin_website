@@ -1,0 +1,112 @@
+.gallery-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 20em;
+    margin-top: 6em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.gallery-row-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 37em;
+    width: auto;
+    margin-top: 4em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.gallery-row-3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    width: auto;
+    margin-top: 4em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    justify-content: space-around;
+}
+
+.gallery-row-4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    width: auto;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    justify-content: space-around;
+}
+
+.photo-cell {
+    position: relative;
+    height: 20em;
+    width: auto;
+}
+
+.column-2-photo-cell {
+    position: relative;
+    height: 10em;
+    width: auto;
+    margin: 0 0 0 0;
+    justify-content: right;
+}
+
+#inazuma-gallery-title {
+    width: 100%;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#column-2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 37em;
+    width: 30em;
+    justify-content: space-between;
+    top: 0;
+}
+
+.column-1 {
+    top: 0;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    height: 72em;
+    justify-content: space-around;
+}
+
+#island {
+    top: 0;
+    height: 30em;
+    width: 55em;
+}
+
+#serai-island {
+    position: relative;
+    height: 30em;
+    width: 55em;
+}
+
+#tenshukaku {
+    align-self: flex-end;
+    margin-bottom: 10px;
+    right: 0;
+}
+
+.photo-cell-long {
+    position: relative;
+    height: 65em;
+    width: 30em;
+}
