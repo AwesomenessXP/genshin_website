@@ -79,7 +79,7 @@
     top: 0;
 }
 
-.column-1 {
+#column-1 {
     top: 0;
     position: relative;
     flex-direction: column;
