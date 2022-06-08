@@ -179,8 +179,8 @@ nav .five:hover {
 
 #inazuma-gallery {
     display: flex;
-    position: relative;
-    height: 100%;
+    position: absolute;
+    height: 130%;
     width: auto;
     background-color: rgba(0, 0, 0, 0.514);
     justify-content: space-around;
@@ -203,9 +203,7 @@ nav .five:hover {
 
 
 @media (max-width: 1890px) {
-    #column-2 {
-        
-    }
+
 }
 
 @media (max-width: 1500px) {
@@ -224,4 +222,19 @@ nav .five:hover {
 }
 
 @media (max-width: 500px) {
+    nav .one {
+        display: none;
+    }
+    #column-0 {
+        position: absolute;
+    }
+    #column-2 {
+        position: absolute;
+    }
+    #column-1 {
+        position: absolute;
+    }
+    #inazuma-gallery {
+        height: 42%;
+    }
 }
