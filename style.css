@@ -161,11 +161,10 @@ nav .five:hover {
     position: relative;
     height: 42%;
     width: 25%;
-    margin-left: 50em;
     margin-top: -65em;
     background-color: rgba(0, 0, 0, 0.281);
     z-index: 3;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
@@ -206,17 +205,24 @@ nav .five:hover {
 
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1650px) {
 }
 
-@media (max-width: 1100px) {
-
+@media (max-width: 1450px) {
+    .slide-description {
+        position: relative;
+        width: 40%;
+    }
 }
 
 @media (max-width: 940px) {
 }
 
-@media (max-width: 860px) {
+@media (max-width: 800px) {
+    .slide-description {
+        position: relative;
+        width: 80%;
+    }
 }
 @media (max-width: 700px) {
 }
@@ -225,16 +231,16 @@ nav .five:hover {
     nav .one {
         display: none;
     }
-    #column-0 {
-        position: absolute;
-    }
-    #column-2 {
-        position: absolute;
-    }
-    #column-1 {
-        position: absolute;
-    }
+
     #inazuma-gallery {
-        height: 42%;
+        height: 90%;
+    }
+
+    .inazuma-description {
+        margin-top: -90%;
+    }
+
+    .raiden-shogun {
+        display: none;
     }
 }
