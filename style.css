@@ -208,6 +208,10 @@ nav .five:hover {
 @media (max-width: 1650px) {
 }
 
+@media (max-width: 1550px) {
+
+}
+
 @media (max-width: 1450px) {
     .slide-description {
         position: relative;
