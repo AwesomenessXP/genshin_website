@@ -1,16 +1,13 @@
 .photo-cell {
     position: relative;
-    height: 20em;
-    width: auto;
-    margin-bottom: 40px;
+    height: 100%;
+    width: 100%;
 }
 
 .column-2-photo-cell {
     position: relative;
-    height: 10em;
-    width: auto;
-    justify-content: center;
-    flex: 1 1 0;
+    height: 90%;
+    width: 85%;
 }
 
 #inazuma-gallery-title {
@@ -26,52 +23,54 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 64.5em;
+    height: 86%;
     width: auto;
-    justify-content: space-between;
+    justify-items:center;
     top: 6em;
-    flex-shrink: 1;
-    margin-right: 2%;
+    margin-left: 2%;
+    flex: 1 1 0;
 }
 
 #column-1 {
-    margin-top: 6em;
+    display: flex;
     position: relative;
     flex-direction: column;
-    display: flex;
     height: 86%;
     width: auto;
-    justify-content: space-between;
-    flex-shrink: 1;
-}
-
-#island {
-    margin-top: 0;
-    height: 30em;
-    width: 55em;
-}
-
-#serai-island {
-    position: relative;
-    height: 30em;
-    width: 55em;
-}
-
-#tenshukaku {
-    align-self: center;
-    height: 40em;
+    justify-items:center;
+    top: 6em;
+    margin-left: 2.8%;
+    flex: 2 2 0;
 }
 
 #column-0 {
+    display: flex;
     position: relative;
-    margin-top: 6em;
-    justify-content: space-between;
-    height: 64.5%;
+    flex-direction: column;
+    height: 86%;
     width: auto;
+    justify-items:center;
+    top: 6em;
     margin-left: 2%;
-    flex-shrink: 1;
+    flex: 1 1 0;
 }
 
-#castle {
-    width: 36.5em;
+.column-2-item {
+    margin-bottom: 3.5%;
+    margin-left: 4%;
+}
+
+.column-1-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.column-1-item-div {
+    margin-bottom: 10.5%;
+}
+
+.column-0-item-div {
+    margin-bottom: 15%;
 }

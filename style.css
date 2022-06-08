@@ -180,10 +180,10 @@ nav .five:hover {
 #inazuma-gallery {
     display: flex;
     position: relative;
-    height: 75em;
+    height: 100%;
     width: auto;
     background-color: rgba(0, 0, 0, 0.514);
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -191,14 +191,24 @@ nav .five:hover {
     border-radius: 10px;
 }
 
-/* WEBSITE RESPONSIVENESS */
-
-@media (max-width: 1500px) {
-
+.something {
+    position: relative;
+    display: flex;
+    height: 30%;
+    width: auto;
+    background-color: rgba(137, 43, 226, 0.555);
 }
 
-@media (max-width: 1919px) {
+/* WEBSITE RESPONSIVENESS */
 
+
+@media (max-width: 1890px) {
+    #column-2 {
+        
+    }
+}
+
+@media (max-width: 1500px) {
 }
 
 @media (max-width: 1100px) {
@@ -213,5 +223,5 @@ nav .five:hover {
 @media (max-width: 700px) {
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 }
