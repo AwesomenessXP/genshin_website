@@ -139,6 +139,7 @@ nav .five:hover {
     padding-left: 20%;
     padding-right: 20%;
     top: -40em;
+    font-size: 1em;
 }
 
 .inpirational-quote {
@@ -313,7 +314,7 @@ nav .five:hover {
     .inazuma-description {
         position: relative;
         margin-top: -80%;
-        height: 50%;
+        height: 57%;
         width: 80%;
         right: 10%;
     }
