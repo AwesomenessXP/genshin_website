@@ -214,6 +214,28 @@ nav .five:hover {
 @media (max-width: 1650px) {
 }
 
+@media (max-width: 1300px) {
+    nav .one {
+        display: none;
+    }
+
+    nav .two {
+        display: none;
+    }
+
+    nav .three {
+        display: none;
+    }
+
+    nav .four {
+        display: none;
+    }
+
+    nav .five {
+        padding-left: 15px;
+    }
+}
+
 @media (max-width: 1550px) {
 
 }
@@ -221,7 +243,7 @@ nav .five:hover {
 @media (max-width: 1450px) {
     .slide-description {
         position: relative;
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -233,26 +255,34 @@ nav .five:hover {
     }
 
     #inazuma-gallery-title {
-        top: 0;
+        top: 0.5em;
+    }
+
+    #gallery-h1 {
+        font-size: 50px;
     }
 
     #inazuma-gallery {
         position: relative;
         flex-direction: column;
-        margin-top: 0.5%;
     }
 
     #column-0 {
+        position: relative;
         flex-direction: row;
         margin-right: 2%;
     }
 
     #column-1 {
+        position: relative;
+        margin-top: 1.7em;
         flex-direction: row;
         margin-right: 2%;
     }
 
     #column-2 {
+        position: relative;
+        margin-top: 4em;
         justify-content: center;
     }
 
