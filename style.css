@@ -271,8 +271,7 @@ nav .five:hover {
 
     #column-2 {
         position: relative;
-        margin-top: 4em;
-        justify-content: center;
+        top: 4em;
     }
 
     .column-2-item {
