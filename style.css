@@ -29,6 +29,7 @@ nav {
     position: relative;
     z-index: 1;
     background: rgba(0, 0, 0, 0.774);
+    border-bottom: solid 1px rgba(209, 209, 209, 0.699);
     left: 0;
     top: 0;
     overflow: hidden;
@@ -84,6 +85,7 @@ nav .four {
 }
 
 nav .five {
+    display: none;
     margin-top: 15px;
     margin-right: 10px;
 }
@@ -215,24 +217,12 @@ nav .five:hover {
 }
 
 @media (max-width: 1300px) {
-    nav .one {
+    nav .one, nav .two, nav .three, nav .four {
         display: none;
     }
-
-    nav .two {
-        display: none;
-    }
-
-    nav .three {
-        display: none;
-    }
-
-    nav .four {
-        display: none;
-    }
-
     nav .five {
-        padding-left: 15px;
+        display:flex;
+        margin-left: 15px;
     }
 }
 
@@ -269,7 +259,6 @@ nav .five:hover {
 
     #column-0 {
         position: relative;
-        flex-direction: row;
         margin-right: 2%;
     }
 
