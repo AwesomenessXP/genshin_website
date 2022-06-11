@@ -6,8 +6,12 @@
 
 .column-2-photo-cell {
     position: relative;
-    height: 90%;
-    width: 85%;
+    height: 100%;
+    width: 95%;
+}
+
+#tenshukaku {
+    display: flex;
 }
 
 #inazuma-gallery-title {
@@ -23,10 +27,11 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 50%;
+    height: 64%;
     width: auto;
     top: 6em;
     margin-left: 2%;
+    margin-right: 2%;
     flex: 1 1 0;
 }
 
@@ -55,8 +60,11 @@
 }
 
 .column-2-item {
-    margin-bottom: 3.5%;
-    margin-left: 4%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .column-1-item {
