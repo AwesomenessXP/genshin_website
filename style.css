@@ -20,7 +20,7 @@ body {
     resize: both;
 }
 
-nav {
+#nav-bar {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row;
@@ -33,59 +33,70 @@ nav {
     left: 0;
     top: 0;
     overflow: hidden;
+    justify-content: space-between;
 }
 
-nav div {
+.nav-div {
     position: relative;
     overflow: hidden;
-    height: 50px;
+    height: 3em;
+}
+
+#navDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
 }
 
 #playButton {
     margin-top: 0.3em;
 }
 
+#playButton:hover {
+    cursor: pointer;
+}
+
+.btn-text {
+    margin-top: 5%;
+}
+
 nav #one {
-    flex: 0.5 0.5 0%;
     height: 70px;
-    width: 300px;
+    width: 70px;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 95px;
 }
 
 nav #two {
-    margin-top: 15px;
-    flex: 0.5 0.5 0%;
     margin-right: 5px;
-    margin-left: 500px;
     color: white;
-    text-align: center;
     border: 2px solid white;
     border-radius: 0.8em;
+    width: 13em;
+    text-align: center;
+    cursor: pointer;
 }
 
 nav #three {
-    margin-top: 15px;
-    flex: 0.5 0.5 0%;
     margin-right: 5px;
     margin-left: 5px;
     color: white;
     text-align: center;
     border: 2px solid white;
     border-radius: 0.8em;
+    width: 13em;
+    cursor: pointer;
 }
 
 nav #four {
-    margin-top: 15px;
-    width: 50px;
-    flex: 0.5 0.5 0%;
+    width: 13em;
     margin-right: 5px;
     margin-left: 5px;
     color: white;
     text-align: center;
     border: 2px solid white;
     border-radius: 0.8em;
+    cursor: pointer;
 }
 
 nav #five {
