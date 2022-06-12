@@ -41,7 +41,11 @@ nav div {
     height: 50px;
 }
 
-nav .one {
+#playButton {
+    margin-top: 0.3em;
+}
+
+nav #one {
     flex: 0.5 0.5 0%;
     height: 70px;
     width: 300px;
@@ -50,7 +54,7 @@ nav .one {
     margin-right: 95px;
 }
 
-nav .two {
+nav #two {
     margin-top: 15px;
     flex: 0.5 0.5 0%;
     margin-right: 5px;
@@ -61,7 +65,7 @@ nav .two {
     border-radius: 0.8em;
 }
 
-nav .three {
+nav #three {
     margin-top: 15px;
     flex: 0.5 0.5 0%;
     margin-right: 5px;
@@ -72,7 +76,7 @@ nav .three {
     border-radius: 0.8em;
 }
 
-nav .four {
+nav #four {
     margin-top: 15px;
     width: 50px;
     flex: 0.5 0.5 0%;
@@ -84,25 +88,25 @@ nav .four {
     border-radius: 0.8em;
 }
 
-nav .five {
+nav #five {
     display: none;
     margin-top: 15px;
     margin-right: 10px;
 }
 
-nav .two:hover {
+nav #two:hover {
     background-color: rgba(255, 255, 255, 0.336);
 }
 
-nav .three:hover {
+nav #three:hover {
     background-color: rgba(255, 255, 255, 0.336);
 }
 
-nav .four:hover {
+nav #four:hover {
     background-color: rgba(255, 255, 255, 0.336);
 }
 
-nav .five:hover {
+nav #five:hover {
     background-color: rgba(255, 255, 255, 0.336);
     border-radius: 10px;
 }
@@ -218,10 +222,10 @@ nav .five:hover {
 }
 
 @media (max-width: 1300px) {
-    nav .one, nav .two, nav .three, nav .four {
+    nav #one, nav #two, nav #three, nav #four {
         display: none;
     }
-    nav .five {
+    nav #five {
         display:flex;
         margin-left: 15px;
     }
@@ -297,7 +301,7 @@ nav .five:hover {
 }
 
 @media (max-width: 500px) {
-    nav .one {
+    nav #one {
         display: none;
     }
 

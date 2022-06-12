@@ -30,22 +30,23 @@
     <!--NAV BAR-->
     <nav>
       <!--AUDIO PLAYER-->
-      <div class="one">
-        <audio controls><source src="resources/Inazuma.mp3" type="audio/mp3"></audio>  
+      <div id="one">
+        <img id="playButton" src="resources/music-icon-white.png" alt="this is the music button" height="50" width = "50">
+        <audio id="playAudio" src="resources/Inazuma.mp3" type="audio/mp3"></audio>  
       </div>
 
       <!--NAVIGATION BUTTONS-->
-      <div class="two">
+      <div id="two">
         <h3>Raiden Shogun</h3>
       </div>
-      <div class="three">
+      <div id="three">
         <h3>Kokomi</h3>
       </div>
-      <div class="four">
+      <div id="four">
         <h3>Yae Miko</h3>
       </div>
-      <div class="five">
-        <img class="menu-icon" src="resources/menu_icon_white.png" alt="" height="50" width="50">
+      <div id="five">
+        <img class="menu-icon" src="resources/menu_icon_white.png" alt=""">
       </div>
     </nav> 
 
@@ -280,6 +281,9 @@
         <h1>Hey</h1>
       </div>
       -->
+
+      <script src="index.js" defer></script>
+
     </div>
   </body>
 </html>
