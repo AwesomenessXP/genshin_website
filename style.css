@@ -48,12 +48,10 @@ body {
     margin-top: 1%;
 }
 
-#playButton {
-    margin-top: 0.3em;
-}
-
 #playButton:hover {
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 100px;
 }
 
 .btn-text {
@@ -61,9 +59,9 @@ body {
 }
 
 nav #one {
-    height: 70px;
-    width: 70px;
-    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    margin-top: 1%;
     margin-left: 10px;
 }
 
@@ -101,8 +99,6 @@ nav #four {
 
 nav #five {
     display: none;
-    margin-top: 15px;
-    margin-right: 10px;
 }
 
 nav #two:hover {
@@ -237,8 +233,19 @@ nav #five:hover {
         display: none;
     }
     nav #five {
+        position: relative;
+        width: auto;
         display:flex;
-        margin-left: 15px;
+    }
+
+    .nav-div {
+        height: 4.2em;
+        width: auto;
+    }
+
+    .menu-icon {
+        height: 70px;
+        width: 70px;
     }
 }
 
