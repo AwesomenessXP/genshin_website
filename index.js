@@ -4,6 +4,8 @@ let isMuted = false;
 
 btn.addEventListener('click', () => {
     const audio = document.querySelector("#playAudio");
+
+    // when button is clicked, will mute/unmute the audio
     if (!isMuted) {
         audio.volume = 1;
         isMuted = true;
